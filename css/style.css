@@ -19,3 +19,42 @@ h1{
     display: inline-block;
     vertical-align: middle;
 }
+
+#window{
+    background-color: white;
+     border: 1px solid black; /*da eliminare */
+    height: 15rem; /*da eliminare */
+    width: 75%;
+    margin: 3rem auto;
+    border-radius: 4px;
+}
+
+#headSect{
+    height: 2.5rem;
+    border-bottom: 1px solid #F6F8F9;
+    
+}
+
+#headSect div{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+    
+}
+
+#headSect span{
+    border-radius: 3px;
+    vertical-align: middle;
+    padding: 0.5rem 0.7rem;
+}
+
+#taskFunc{
+    background-color: #47ADF1;
+    border: 0px;
+    color: white;
+}
+
+#addSectFunc{
+    border: 1px solid #9f9f9f;
+    color: #9f9f9f;
+}
