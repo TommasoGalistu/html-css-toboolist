@@ -8,11 +8,15 @@ body{
 }
 header{
     background-color: white;
+    height: 5rem;
+    
 }
 
 header img{
     margin-left: 1rem;
     padding: 0.5rem;
+    line-height: 1rem;
+    vertical-align: middle;
 }
 
 h1{
@@ -21,31 +25,31 @@ h1{
 }
 
 
-#window{
+main{
     background-color: white;
-    border: 1px solid black; /*da eliminare */
-     
-    width: 75%;
+    width: 80rem;
     margin: 3rem auto;
     border-radius: 4px;
 }
 
-main{
+#window{
     margin-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-
 #headSect{
-    height: 2.5rem;
-    border-bottom: 1px solid #F6F8F9;
-    
-}
-
-#headSect div{
     
     margin-top: 1.5rem;
     margin-bottom: 0.3rem;
     
 }
+
+#headSect div{
+    height: 3.5rem;
+    border-bottom: 1px solid #F6F8F9;
+}
+
+
 
 #headSect span{
     border-radius: 3px;
@@ -70,26 +74,36 @@ main{
 }
 
 div h3:before{
-    content:'\333'
-    
+    position: relative;
+    content: "\27A4";
+    transform: rotate(90deg); 
+    /* non riesco a girare la freccia */
 }
+
 
 
 div h3{
     margin-bottom: 0.5rem;
+    position: ;
+    
 }
 
 .toDoTask{
     margin-bottom: 1rem;
+
 }
 
 .done:before{
-    content: "\2713  "
+    content: "\2713";
+    padding-right: 0.5rem;
+    
     
 }
 
 .notDone:before{
-    content: "\2713  "
+    content: "\2717";
+    padding-right: 0.5rem;
+    
     
 }
 
