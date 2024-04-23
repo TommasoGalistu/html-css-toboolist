@@ -114,3 +114,11 @@ div h3{
 .typeContent.mobile{
     background-color: #F29E33;
 }
+
+.typeContent.webCont{
+    background-color: #D863A1;
+}
+
+.typeContent.sale{
+    background-color: #B0C926;
+}
