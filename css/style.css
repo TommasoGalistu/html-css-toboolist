@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F8F9;
+}
+header{
+    background-color: white;
+}
+
+header img{
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
